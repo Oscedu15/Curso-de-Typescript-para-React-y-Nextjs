@@ -96,6 +96,9 @@ const Button6 = ({
 function PropsPage() {
   return (
     <div className="flex flex-col justify-center gap-y-2 ">
+      <span className="font-semibold text-gray-400 text-center">
+        Typescript Props
+      </span>
       <Button />
       <Button2 text="Carro" subtitle={2} />
       <Button3 text="Moto" subtitle={3} opcional={true} />
